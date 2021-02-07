@@ -1,6 +1,7 @@
 # Amethyst examples with docker
+This container uses https://github.com/dotellie/amethyst-docker-dependencies and can be used to build the Amethyst examples from https://github.com/amethyst/amethyst/tree/main/examples
 
-# build
+# Usage
 ```
 $ \
  git clone https://github.com/marcelmaatkamp/docker-amethyst-examples &&\
