@@ -1,0 +1,15 @@
+version: '3'
+services:
+
+ amethyst-examples:
+  image: marcelmaatkamp/amethyst/examples
+  command: cargo run -p hello_world
+  build:
+   context: .
+  volumes:
+   - target:/amethyst/target
+   - assets_db:/amethyst/.assets_db
+
+volumes:
+ target:
+ assets_db:
